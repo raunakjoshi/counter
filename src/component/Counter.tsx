@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-const Counter = ({ count }) => {
-  const [currentCount, setCurrentCount] = useState(count);
+const Counter = () => {
+  const [currentCount, setCurrentCount] = useState(0);
 
   const handleIncrement = () => {
     if (currentCount < 20) {
