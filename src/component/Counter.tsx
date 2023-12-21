@@ -17,6 +17,10 @@ const Counter = () => {
 
   return (
     <div>
+      <h1>
+        <span>My Counter App</span>
+      </h1>
+
       <p>Current Count: {currentCount}</p>
       <button id="increment-btn" onClick={handleIncrement}>
         Increment
