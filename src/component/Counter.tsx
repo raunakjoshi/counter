@@ -18,8 +18,12 @@ const Counter = () => {
   return (
     <div>
       <p>Current Count: {currentCount}</p>
-      <button onClick={handleIncrement}>Increment</button>
-      <button onClick={handleDecrement}>Decrement</button>
+      <button id="increment-btn" onClick={handleIncrement}>
+        Increment
+      </button>
+      <button id="decrement-btn" onClick={handleDecrement}>
+        Decrement
+      </button>
     </div>
   );
 };

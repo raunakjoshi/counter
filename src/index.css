@@ -1,0 +1,23 @@
+#increment-btn,
+#decrement-btn {
+  height: 50px;
+  width: 250px;
+  padding: 0 40px;
+  border-radius: 10px;
+  font-size: 40px;
+  background-color: orange;
+  border: 2px solid;
+  color: purple;
+  margin: 20px;
+}
+p {
+  height: 50px;
+  min-width: 120px;
+  border-radius: 10px;
+  background-color: orange;
+  margin-top: 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
